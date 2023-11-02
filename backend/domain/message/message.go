@@ -1,11 +1,10 @@
 package message
 
 import (
+	"github.com/yuuki-tsujimura/next-step/domain/company"
+	"github.com/yuuki-tsujimura/next-step/domain/jobopening"
+	"github.com/yuuki-tsujimura/next-step/domain/jobseeker"
 	"time"
-
-	"github.com/yuuki-tsujimura/next-step/api/domain/company"
-	"github.com/yuuki-tsujimura/next-step/api/domain/jobopening"
-	"github.com/yuuki-tsujimura/next-step/api/domain/jobseeker"
 )
 
 type Message struct {

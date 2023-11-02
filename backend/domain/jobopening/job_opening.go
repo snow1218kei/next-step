@@ -1,6 +1,8 @@
 package jobopening
 
-import "github.com/yuuki-tsujimura/next-step/api/domain/company"
+import (
+	"github.com/yuuki-tsujimura/next-step/domain/company"
+)
 
 type JobOpening struct {
 	jobOpeningID   JobOpeningID
